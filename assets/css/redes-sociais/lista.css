@@ -1,0 +1,64 @@
+.lista {
+    color: var(--cor2);
+}
+
+.listas {
+    margin-bottom: 0;
+}
+
+.lista:last-child {
+     margin-bottom: 0;
+}
+.lista__imagem--linkedin {
+    background: url(../../imagens/icone-linkedin.png) no-repeat center / cover;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0.2rem;
+}
+.lista__imagem--instagran {
+    background: url(../../imagens/icone-instagram.png) no-repeat center / cover;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0.2rem;
+
+}
+.lista__imagem--github {
+    background: url(../../imagens/icone-github.png) no-repeat center / cover;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0.2rem;
+
+}
+
+.lista__link {
+    margin-left: 27px;
+    color: var(--cor1);
+    text-decoration: none;
+}
+
+.lista__link:hover {
+    color: var(--cor0);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 0) {
+    .lista {
+        font-size: 1.1rem;
+        padding: 0 1rem;
+        margin-bottom: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lista {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .lista {
+        padding: 0;
+    }
+}

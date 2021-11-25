@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Iron-man';
+    src: url(../fonts/iron_man/iron-man.ttf) format('opentype');
+    font-weight: bold;
+}
+
+:root {
+    --cor0: #400101;
+    --cor1: #a63429;
+    --cor2: #403022;
+    --cor3: #bf834e;
+    --cor4: #d9b36c;
+    --cor4-fraca: #ffe5b5;
+    --cor5: #f2f2f2;
+    --cor6: #0d0d0d;
+    --cor-sombra: rgba(0, 0, 0, 0.384);
+
+    --font-padrao: 'Roboto-regular', sans-serif;
+    --font-destaque: 'Iron-man';
+}
+
+body {
+    font-family: var(--font-padrao);
+}
+

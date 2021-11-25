@@ -1,0 +1,25 @@
+.menu__link {
+    color: var(--cor4);
+    font-family: var(--font-destaque);
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.menu__link:hover {
+    color: var(--cor3);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 0) {
+    .menu {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        text-align: right;
+    }
+}

@@ -1,0 +1,58 @@
+.projetos {
+    background: var(--cor4-fraca);
+}
+
+.projetos__subtitulo {
+    color: var(--cor2);
+    font-family: 'Iron-man';
+    font-size: 1.25rem;
+    padding: 3rem 0 1rem 1rem;
+}
+
+.projetos__descricao {
+    text-align: justify;
+    color: var(--cor6);
+    padding: 0 1rem 2rem;
+    margin: 0;
+}
+
+.projetos__itens {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 0) {
+    .projetos__itens {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .projetos__itens {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .projetos__980px {
+        margin: auto;
+        width: 980px;
+    }
+
+    .projetos__itens {
+        justify-content: space-between;
+    }
+
+    .projetos__subtitulo, .projetos__descricao, .projetos__itens {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

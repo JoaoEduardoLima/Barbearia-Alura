@@ -1,78 +1,134 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
+<html lang="pt-BR">
+<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<title>Barbearia Alura</title>
-		<link rel="stylesheet" href="assets/estilos/reset.css">
-		<link rel="stylesheet" href="assets/estilos/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portifólio | Sobre</title>
 
-	</head>
-
-	<body>
-		<header>
-			<div class="caixa">
-				<h1>
-					<img src="assets/img/logo.png" alt="Logo Barbearia Alura">
-				</h1>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+		<link rel="stylesheet" href="assets/css/body.css">
+		<link rel="stylesheet" href="assets/css/normalize.css">
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
+		<link rel="stylesheet" href="assets/css/cabecalho/menu.css">
+		<link rel="stylesheet" href="assets/css/sobre.css">
+		<link rel="stylesheet" href="assets/css/redes-sociais/redes-sociais.css">
+		<link rel="stylesheet" href="assets/css/redes-sociais/lista.css">
+		<link rel="stylesheet" href="assets/css/projetos/projetos.css">
+		<link rel="stylesheet" href="assets/css/projetos/item.css">
+		<link rel="stylesheet" href="assets/css/rodape.css">
 		
-		<img class="banner"  src="assets/img/banner.jpg">
-
+</head>
+<body>
+		<header class="cabecalho">
+						<div class="cabecalho__conteudo">
+								<p class="cabecalho__titulo">Minha trajetória</p>
+								<p class="cabecalho__subtitulo">Minha linha de aprendizado</p>
+								<nav class="menu">
+										<a href="#sobre" class="menu__link">Sobre</a>
+										<a href="#redes-sociais" class="menu__link">Redes Sociais</a>
+										<a href="#projetos" class="menu__link">Projetos</a>
+								</nav>
+						</div>
+		</header>
 		<main>
-			<section class="principal">
-				<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
-
-				<img class="utensilios" src="assets/img/utensilios.jpg" alt="utensilios de barbeiro">
-
-				<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
-				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
-				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-			</section>
-
-			<section class="mapa">
-				<h3 class="titulo-principal">Nosso estabelecimento</h3>
-				<p>Nosso estabelecimento está localizado no coração da cidade.</p>
-
-				<div class="mapa-conteudo"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.448598130907!2d-46.634653385542414!3d-23.588239368469353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1580916426151!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-				</div>
-
-
-			</section>
-			<section class="beneficios">
-				<h3 class="titulo-principal">Benefícios</h3>
-				<div class="conteudo-beneficios">
-					<ul class="lista-beneficios">
-						<li class="itens" >Atendimento ao cliente</li>
-						<li class="itens" >Espaço Diferenciado</li>
-						<li class="itens" >Localização</li>
-						<li class="itens" >Profissionais Qualificados</li>
-						<li class="itens" >Pontualidade</li>
-						<li class="itens" >Limpeza</li>
-
-					</ul><img src="assets/img/beneficios.jpg" class="imagem-beneficios">
-				</div>
-
-				<div class="video">	
-					<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</section>
+				<section class="sobre" id="sobre">
+						<div class="sobre__div">
+								<div class="sobre__imagem"></div>
+								<h1 class="sobre__titulo">Um pouco sobre João Eduardo</h1>
+						</div>
+						<h2 class="sobre__subtitulo">Quem sou eu?</h2>
+						<p class="sobre__descricao">Meu nome é <strong>João Eduardo</strong>, sou estudante de Análise e Desenvolvimento de Sistemas. Estou me dedicando aos estudos na programação através do centro Universitário de Araraquara - UNIARA e complementares como a plataforma da Alura e também através do Curso em Vídeo pelo prof° Gustavo Guanabara. Já adquiri conhecimento em Java e Orientação Objeto, Python (Data Science), Sql, HTML, CSS, JavaScripit e ainda tenho muito que aprender. Estou muito empolgado com essa área da tecnologia por isso quero me desenvolver e procurar conhecimentos constantemente. Muito obrigado pela sua visita no meu pequeno projeto =)</p>
+				</section>
+				<section class="redes-sociais" id="redes-sociais">
+						<div class="redes-sociais__980px">
+								<div class="redes-sociais__conteudo">
+										<h2 class="redes-sociais__subtitulo">Como me encontrar?</h2>
+										<ul class="listas">
+												<li class="lista">
+														<div class="lista__imagem--linkedin"><a href="https://www.linkedin.com/in/joaoeduardoflima/" target="_blank" rel="external" class="lista__link">/joaoeduardoflima</a></div>
+														 - Me adiciona lá no LinkedIn
+												</li>
+												<li class="lista">
+														<div class="lista__imagem--instagran"><a href="https://www.instagram.com/joaoeduardo.l/" target="_blank" rel="external" class="lista__link">/joaoeduardo.l</a></div>
+														 - Me segue lá no Instagran
+												</li>
+												<li class="lista">
+														<div class="lista__imagem--github"><a href="https://github.com/JoaoEduardoLima" target="_blank" rel="external" class="lista__link">/JoaoEduardoLima</a></div>
+														 - Acessa meu repositório público no GitHub.
+												</li>
+										</ul>
+								</div>
+								<div class="redes-sociais__imagem"></div>
+						</div>
+				</section>
+				<section class="projetos" id="projetos">
+					<div class="projetos__980px">
+						<h2 class="projetos__subtitulo">Meus projetos de aprendizagem!</h2>
+						<p class="projetos__descricao">Aqui vou te mostrar um pouco do que aprendi com alguns projetos que realizei durante a busca de conhecimento! Todos os projetos estão no meu repositório do <strong>GitHub</strong>.</p>
+							<ul type="none" class="projetos__itens">
+								<a href="../arquitetura-css-assets/index.html" target="_blank" class="item__link">
+									<li class="item">
+										<img src="assets/imagens/imagem-projetos/pimentoes-a-juliana.jpg" alt="Projeto página web de receitas" class="item__imagem">
+										<p class="item__descricao">Projeto realizado na Alura para treinar bons hábitos de organização do CSS e responsividade.</p>
+									</li>
+								</a>
+								<a href="C:\Users\joaoe\OneDrive\Documents\João Eduardo\ws-vscode\html-css-Guanabara\exercicios\mini-projeto-site\android.html" target="_blank" class="item__link">
+									<li class="item">
+										<img src="assets/imagens/imagem-projetos/dan-droids-pq.png" alt="Projeto história do android" class="item__imagem">
+										<p class="item__descricao">Projeto realizado junto com o profº Guanabara do 'Curso em vídeo' - deixando a página responsiva.</p>
+									</li>
+								</a>
+								<a href="home-barbearia.html" target="_blank" class="item__link">
+									<li class="item">
+										<img src="assets/imagens/imagem-projetos/logo.png" alt="Projeto barbearia Alura" class="item__imagem">
+										<p class="item__descricao">Projeto realizado na Alura com o objetivo de ter os primeiros contato com HTML5 e CSS3.</p>
+									</li>
+								</a>
+								<a href="../responsivo/index.html" target="_blank" class="item__link">
+									<li class="item">
+										<img src="assets/imagens/imagem-projetos/apeperia.png" alt="Projeto pagina responsivo" class="item__imagem">
+										<p class="item__descricao">Projeto realizado na Alura com o objetivo de treinar responsividade.</p>
+									</li>
+								</a>
+								<a href="../javascript-Guanabara/condicao-loop/bomdia-tarde-noite/index.html" target="_blank" class="item__link">
+									<li class="item">
+										<img src="assets/imagens/imagem-projetos/hora-js.png" alt="Projeto verifica hora do dia" class="item__imagem">
+										<p class="item__descricao">Projeto realizado junto com o profº Guanabara do 'Curso em vídeo' - JavaScript capturando a hora do dia.</p>
+									</li>
+								</a>
+								</a>
+								</a>
+								<a href="../javascript-Guanabara/condicao-loop/homem-mulher-idade/index.html" target="_blank" class="item__link">
+									<li class="item">
+										<img src="assets/imagens/imagem-projetos/idade-js.png" alt="Projeto verifica idade" class="item__imagem">
+										<p class="item__descricao">Projeto realizado junto com o profº Guanabara do 'Curso em vídeo - JavaScript capturando a idade informada.</p>
+									</li>
+								</a>
+								<a href="../javascript-Guanabara/condicao-loop/tabuada/tabuada.html" target="_blank" class="item__link">
+									<li class="item">
+										<img src="assets/imagens/imagem-projetos/tabuada-js.png" alt="Projeto tabuada" class="item__imagem">
+										<p class="item__descricao">Projeto realizado junto com o profº Guanabara do 'Curso em vídeo' - JavaScript entregando a tabuada de um número.</p>
+									</li>
+								</a>
+								<a href="../javascript-Guanabara/condicao-loop/contagem/contagem.html" target="_blank" class="item__link">
+									<li class="item">
+										<img src="assets/imagens/imagem-projetos/contagem-js.png" alt="Projeto contagem com JavaScript" class="item__imagem">
+										<p class="item__descricao">Projeto realizado junto com o profº Guanabara do 'Curso em vídeo' - JavaScript contagem com passos definidos.</p>
+									</li>
+								</a>
+								<a href="../javascript-Guanabara/exemplo-ultimo/index.html" target="_blank" class="item__link">
+									<li class="item">
+										<img src="assets/imagens/imagem-projetos/analisa-num-js.png" alt="Projeto analise de numeros com JavaScript" class="item__imagem">
+										<p class="item__descricao">Projeto realizado junto com o profº Guanabara do 'Curso em vídeo'  - JavaScript relatório dos números digitados.</p>
+									</li>
+								</a>
+							</ul>
+					</div>
+				</section>
 		</main>
-
-		<footer>
-			<img src="assets/img/logo-branco.png" alt="Logo Barbearia Alura">
-			<p class="copyright">&copy; Copyright Barbearia Alura</p>
-			<p><a href="https://www.linkedin.com/in/joaoeduardoflima/" target="_blank"><strong>Aluno: João Eduardo</strong></a></p>
+		<footer class="rodape">
+				<p class="rodape__texto">Contato: <a class="rodape__mail" href="mailto:">joaoeduardo.lima@hotmail.com</a></p> 
 		</footer>
-
-	</body>
+</body>
 </html>
